@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgb(10, 125, 133);
+}
+
+.crono{
+    width: 40vw;
+    height: 30vh;
+    background: rgb(7, 18, 123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17%;
+    font-size: 70px;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: sans-serif;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 100);
+
+}
+
+.btn-inicia{
+    width: 6vw;
+    height: 5vh;
+    background: rgb(35, 188, 35);
+    border: none;
+    color: #ffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-pausa{
+    width: 6vw;
+    height: 5vh;
+    background: rgb(164, 185, 22);
+    border: none;
+    color: #ffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-zera{
+    width: 6vw;
+    height: 5vh;
+    background: red;
+    border: none;
+    color: #ffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
